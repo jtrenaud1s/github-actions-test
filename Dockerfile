@@ -1,6 +1,6 @@
 # create a dockerfile for a java spring boot application using alpine java 17 base image
 # pull the base image
-FROM adoptopenjdk/openjdk17:alpine-jre
+FROM azul/zulu-openjdk-alpine:17-latest
 # workdir /app
 WORKDIR /app
 # copy the jar file to the container
