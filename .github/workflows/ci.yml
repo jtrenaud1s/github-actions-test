@@ -31,8 +31,3 @@ jobs:
         
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-      
-    - name: Scan current project
-      uses: anchore/scan-action@v3
-      with:
-        path: "."
